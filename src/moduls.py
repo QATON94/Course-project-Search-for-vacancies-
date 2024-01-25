@@ -14,19 +14,24 @@ class Api(ABC):
 
 class HeadHunterAPI(Api):
 
-    @staticmethod
-    def get_vacancies(search_parameter: str = 'python'):
+    def __init__(self, search_query, top_n, filter_words):
+        self.search_query = search_query
+        self.top_n = top_n
+        self.filter_words = filter_words
+
+
+    def get_vacancies(self):
         url = 'https://api.hh.ru/vacancies'
         params = {
-            'per_page': 100,
-            'text': search_parameter,
+            'per_page': self.top_n,
+            'text': self.search_query,
             'search_field': 'name',
         }
         response = requests.get(url=url, params=params)
         data = response.json()
-        with open('../data/data_vacancies.json', 'w', encoding='utf-8') as f:
-            json.dump(data['items'], f, ensure_ascii=False, indent=4)
-            f.close()
+        # with open('data/data_vacancies.json', 'w', encoding='utf-8') as f:
+        #     json.dump(data['items'], f, ensure_ascii=False, indent=4)
+        #     f.close()
         return data['items']
 
 
@@ -38,7 +43,6 @@ class Vacancy:
         self.alternate_url = alternate_url
         self.responsibility = responsibility
         self.schedule = schedule
-
 
     @classmethod
     def initialization(cls, data: list):
@@ -54,39 +58,58 @@ class Vacancy:
             vacancy_list.append(vacancy)
         return vacancy_list
 
+class JSONSaverABC(ABC):
 
+    @abstractmethod
+    def add_vacancy(self, vacancy):
+        pass
 
-class JSONSaver:
+    @abstractmethod
+    def get_vacancy(self):
+        pass
 
-    def add_vacancy(self, vacancy:list):
+    @abstractmethod
+    def del_vacancy(self):
+        pass
+
+class JSONSaver(JSONSaverABC):
+
+    def add_vacancy(self, vacancy: list):
         json_vacansy = []
         for item in vacancy:
             json_vacansy.append(item.__dict__)
-        with open('../data/data_vacancies.json', 'w', encoding='utf-8') as f:
+        with open('data/data_vacancies.json', 'w', encoding='utf-8') as f:
             json.dump(json_vacansy, f, ensure_ascii=False, indent=4)
             f.close()
+        return json_vacansy
 
-    def get_vacancies_by_salary(self, query_word):
-        with open('../data/data_vacancies.json', 'r', encoding='utf-8') as f:
+    def get_vacancy(self, query_word: str):
+        with open('data/data_vacancies.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
-        for item in data:
-            if query_word in item['salary']:
-                pprint(item)
 
+        from_ = query_word.split('-')
+        # from_[0] = from_.split()
+        print(from_)
+        # for item in data:
+        #     if query_word in item['salary']:
+        #         pprint(item)
 
-if __name__ == '__main__':
-    hh_api = HeadHunterAPI()
+    def del_vacancy(self):
+        pass
 
-    hh_vacancies = hh_api.get_vacancies("Python")
-
-    # for item in hh_vacancies:
-    #     print(item.name)
-    #     print(item.salary)
-    #     print(item.alternate_url)
-    #     print(item.responsibility)
-    #     print(item.schedule)
-    #     print('____________________________')
-    vacancy = Vacancy.initialization(hh_vacancies)
-    json_saver = JSONSaver()
-    json_saver.add_vacancy(vacancy)
-    # json_saver.get_vacancies_by_salary("100 000-150 000 руб.")
+# if __name__ == '__main__':
+#     hh_api = HeadHunterAPI()
+#
+#     hh_vacancies = hh_api.get_vacancies("Python")
+#
+#     # for item in hh_vacancies:
+#     #     print(item.name)
+#     #     print(item.salary)
+#     #     print(item.alternate_url)
+#     #     print(item.responsibility)
+#     #     print(item.schedule)
+#     #     print('____________________________')
+#     vacancy = Vacancy.initialization(hh_vacancies)
+#     json_saver = JSONSaver()
+#     json_saver.add_vacancy(vacancy)
+#     json_saver.get_vacancies_by_salary("100000-150000 руб.")
