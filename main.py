@@ -9,7 +9,8 @@ def main():
     vacancy = Vacancy.initialization(data)
     json_saver = JSONSaver()
     json_saver.add_vacancy(vacancy)
-
+    vacancy_by_salary = json_saver.get_vacancies_by_salary(100000)
+    print()
 
 if __name__ == '__main__':
     main()

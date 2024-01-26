@@ -19,7 +19,6 @@ class HeadHunterAPI(Api):
         self.top_n = top_n
         self.filter_words = filter_words
 
-
     def get_vacancies(self):
         url = 'https://api.hh.ru/vacancies'
         params = {
@@ -58,6 +57,7 @@ class Vacancy:
             vacancy_list.append(vacancy)
         return vacancy_list
 
+
 class JSONSaverABC(ABC):
 
     @abstractmethod
@@ -65,12 +65,13 @@ class JSONSaverABC(ABC):
         pass
 
     @abstractmethod
-    def get_vacancy(self):
+    def get_vacancies_by_salary(self):
         pass
 
     @abstractmethod
     def del_vacancy(self):
         pass
+
 
 class JSONSaver(JSONSaverABC):
 
@@ -83,16 +84,19 @@ class JSONSaver(JSONSaverABC):
             f.close()
         return json_vacansy
 
-    def get_vacancy(self, query_word: str):
-        with open('data/data_vacancies.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
+    def get_vacancies_by_salary(self, from_: int):
+        vacancies_by_salary = []
 
-        from_ = query_word.split('-')
-        # from_[0] = from_.split()
-        print(from_)
-        # for item in data:
-        #     if query_word in item['salary']:
-        #         pprint(item)
+        with open('data/data_vacancies.json', encoding='utf-8') as f:
+            data = json.load(f)
+            for item in data:
+                try:
+                    if from_ <= item['salary']['from']:
+                        vacancies_by_salary.append(item)
+                except:
+                    continue
+            f.close()
+        return vacancies_by_salary
 
     def del_vacancy(self):
         pass
