@@ -21,14 +21,14 @@ class Vacancy:
         self.schedule = schedule
 
     @classmethod
-    def initialization_json(cls, data: list):
+    def initialization_hh(cls, data: list):
         """
         Инициализация атрибутов
         :param data:
         :return:
         """
         vacancy_list = []
-        for item in data:
+        for item in data['items']:
             salary_from, salary_to = validate_salary(item['salary'])
             snippet: str = validate_responsibility(item['snippet']['responsibility'])
             vacancy = cls(
@@ -42,6 +42,18 @@ class Vacancy:
             vacancy_list.append(vacancy)
         return vacancy_list
 
+    @classmethod
+    def initialization_json(cls, data: list):
+        """
+        Инициализация атрибутов
+        :param data:
+        :return:
+        """
+        vacancy_list = []
+        for item in data:
+            vacancy_list.append(cls(**item))
+        return vacancy_list
+
     @property
     def avg_salary(self):
         return (self.salary_from + self.salary_to) / 2
@@ -52,8 +64,20 @@ class Vacancy:
     def __lt__(self, other):
         return self.avg_salary < other.avg_salary
 
+    def __str__(self):
+        return f"""{self.name}
+Зарплата от {self.salary_from}
+URL {self.alternate_url}
+Обязанности: {self.responsibility}
+{self.schedule}
+________________________________________________________________"""
 
-def validate_salary(salary: dict | None):
+def validate_salary(salary: dict | None) -> (int, int):
+    """
+    Валидация зарплаты
+    :param salary: Зарплата
+    :return: Возвращает два числа
+    """
     if isinstance(salary, dict):
         from_ = salary.get('from', 0)
         if from_ is None:
@@ -64,7 +88,11 @@ def validate_salary(salary: dict | None):
         return from_, to_
     return 0, 0
 
-def validate_responsibility(responsibility: str | None):
+
+def validate_responsibility(responsibility: str | None) -> str:
+    """
+    Функция удаляет значения <highlighttext> в responsibility
+    """
     if isinstance(responsibility, str):
         responsibility = responsibility.replace('<highlighttext>Python</highlighttext>', 'Python')
         responsibility = responsibility.replace('<highlighttext>python</highlighttext>', 'python')

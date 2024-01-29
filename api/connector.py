@@ -7,6 +7,9 @@ from config import HH_URL
 
 
 class Api(ABC):
+    """
+    Абстрактный класс для API
+    """
 
     @abstractmethod
     def get_response(self) -> list[dict]:
@@ -14,26 +17,33 @@ class Api(ABC):
 
 
 class HeadHunterAPI(Api):
+    """
+    Класс API для HeadHunter
+    """
 
-    def __init__(self, search_query: str, top_n, filter_words):
+    def __init__(self, search_query: str):
         self.search_query = search_query
-        self.top_n = top_n
-        self.filter_words = filter_words
+
 
     def get_response(self) -> list[dict]:
+        """
+        Возвращает ответ от HeadHunter
+        """
         params = {
-            'per_page': self.top_n,
+            'per_page': 100,
             'text': self.search_query,
             'search_field': 'name',
-            'salary': 0
+            'currency': "RUR",
+            'only_with_salary': True,
+            'area': 113
         }
         response = requests.get(HH_URL, params=params)
+        data = []
         if response.status_code == 200:
-            data = response.json()
+            data: list[dict] = response.json()
         if response.status_code == 500:
             raise HeadHunterAPIAvailableError('HH не доступен')
         if response.status_code in (400, 403, 404):
             errors: list[dict] = response.json()['errors']
             raise HeadHunterRequestAPIError(f'Ошибка данных запроса {errors}')
-
-        return data['items']
+        return data
