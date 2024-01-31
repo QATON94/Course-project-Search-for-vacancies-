@@ -14,19 +14,14 @@ def main():
     path = JSON_VACANCY
     api_hh = HeadHunterAPI(search_query)
     data = api_hh.get_response()
-    pprint(data)
-    # except APIException as e:
-    #     print('Ошибка запроса на HH')
-    #     print(e)
-    #     data = []
-    # vacancies = Vacancy.initialization_hh(data)
-    # vacancies = list(sorted(vacancies, reverse=True))
-    # json_save = JsonProcessing(path)
-    # json_save.write(vacancies)
-    # request_response = json_save.get(filter_words)
-    # user_response_vacancy = Vacancy.initialization_json(request_response)
-    # for value in range(top_n):
-    #     print(user_response_vacancy[value])
+    vacancies = Vacancy.initialization_hh(data)
+    vacancies = list(sorted(vacancies, reverse=True))
+    json_save = JsonProcessing(path)
+    json_save.write(vacancies)
+    request_response = json_save.get(filter_words)
+    user_response_vacancy = Vacancy.initialization_json(request_response)
+    for value in range(top_n):
+        print(user_response_vacancy[value])
 
 
 if __name__ == '__main__':

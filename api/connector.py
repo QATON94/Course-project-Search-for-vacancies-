@@ -28,7 +28,7 @@ class HeadHunterAPI(Api):
         Возвращает ответ от HeadHunter
         """
         params = {
-            'per_page': 2,
+            'per_page': 100,
             'text': self.search_query,
             'search_field': 'name',
             'currency': "RUR",

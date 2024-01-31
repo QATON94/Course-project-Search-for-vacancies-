@@ -2,6 +2,8 @@ import json
 from abc import ABC, abstractmethod
 from pprint import pprint
 
+from vecancy_worcer.vecancy import Vacancy
+
 
 class FileProcessing(ABC):
 
@@ -42,18 +44,21 @@ class JsonProcessing(FileProcessing):
         with open(self.path, encoding='utf-8') as f:
             return json.load(f)
 
-    def write(self, data: list[dict]):
+    def write(self, data: list | Vacancy):
         """
         Открытие фала на запись
         :param data: Список с вакансиями
         """
         json_vacancy = []
-        for item in data:
-            json_vacancy.append(item.__dict__)
+        if type(data) is list:
+            for item in data:
+                json_vacancy.append(item.__dict__)
+        else:
+            json_vacancy.append(data.__dict__)
         with open(self.path, "w", encoding='utf-8') as f:
             json.dump(json_vacancy, f, ensure_ascii=False, indent=4)
 
-    def get(self, query: str) -> list[dict]:
+    def get(self, query: list) -> list[dict]:
         """
         Поиск вакансий по запросу
         :param query: Слово запроса
@@ -87,5 +92,5 @@ class JsonProcessing(FileProcessing):
                             data.remove(item)
                             break
                 items = len(data)
-        with open('data/data_vacanciesss.json', 'w', encoding='utf-8') as f:
+        with open(self.path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
