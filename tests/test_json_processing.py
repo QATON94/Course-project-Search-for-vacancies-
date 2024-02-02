@@ -49,7 +49,7 @@ def test_json_processing(path, vacancy, vacancy_2):
     query = ['Яндекс']
     vacancy_json = data.get(query)
     assert vacancy_json[0]['responsibility'] == ("Разрабатывать и поддерживать микросервисы. Автоматизировать работу "
-                                              "с Wildberries или Яндекс Маркетом (API).")
+                                                 "с Wildberries или Яндекс Маркетом (API).")
     query = 'Яндекс'
     data.delete(query)
     vacancy_json = data.read()

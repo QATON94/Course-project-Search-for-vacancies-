@@ -1,3 +1,6 @@
+from typing import Any
+
+
 class Vacancy:
     """
     Вакансия
@@ -21,14 +24,14 @@ class Vacancy:
         self.schedule = schedule
 
     @classmethod
-    def initialization_hh(cls, data: list):
+    def initialization_hh(cls, data: list) -> list:
         """
         Инициализация атрибутов
         :param data:
         :return:
         """
         vacancy_list = []
-        for item in data['items']:
+        for item in data["items"]:
             salary_from, salary_to = validate_salary(item['salary'])
             snippet: str = validate_responsibility(item['snippet']['responsibility'])
             vacancy = cls(
@@ -43,7 +46,7 @@ class Vacancy:
         return vacancy_list
 
     @classmethod
-    def initialization_json(cls, data: list):
+    def initialization_json(cls, data: list) -> list:
         """
         Инициализация атрибутов
         :param data:
@@ -55,16 +58,16 @@ class Vacancy:
         return vacancy_list
 
     @property
-    def avg_salary(self):
+    def avg_salary(self) -> float:
         return (self.salary_from + self.salary_to) / 2
 
-    def __gt__(self, other):
+    def __gt__(self, other) -> Any:
         return self.avg_salary > other.avg_salary
 
-    def __lt__(self, other):
+    def __lt__(self, other) -> Any:
         return self.avg_salary < other.avg_salary
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"""{self.name}
 Зарплата от {self.salary_from}
 URL {self.alternate_url}
@@ -72,7 +75,8 @@ URL {self.alternate_url}
 {self.schedule}
 ________________________________________________________________"""
 
-def validate_salary(salary: dict | None) -> (int, int):
+
+def validate_salary(salary: dict | None) -> tuple[int, int]:
     """
     Валидация зарплаты
     :param salary: Зарплата

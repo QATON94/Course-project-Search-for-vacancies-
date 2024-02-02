@@ -1,6 +1,3 @@
-import os
-from pprint import pprint
-
 from api.connector import HeadHunterAPI
 from config import JSON_VACANCY
 from database.json_processing import JsonProcessing
@@ -9,7 +6,7 @@ from utils import user_interaction
 from vecancy_worcer.vecancy import Vacancy
 
 
-def main():
+def main() -> None:
     search_query, top_n, filter_words = user_interaction()
     path = JSON_VACANCY
     api_hh = HeadHunterAPI(search_query)

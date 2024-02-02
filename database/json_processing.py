@@ -1,6 +1,6 @@
 import json
 from abc import ABC, abstractmethod
-from pprint import pprint
+from typing import Any
 
 from vecancy_worcer.vecancy import Vacancy
 
@@ -8,15 +8,15 @@ from vecancy_worcer.vecancy import Vacancy
 class FileProcessing(ABC):
 
     @abstractmethod
-    def __init__(self, path):
+    def __init__(self, path: str) -> None:
         pass
 
     @abstractmethod
-    def read(self):
+    def read(self) -> list:
         pass
 
     @abstractmethod
-    def write(self, data: list[dict]):
+    def write(self, data: list[dict]) -> None:
         pass
 
     @abstractmethod
@@ -24,13 +24,13 @@ class FileProcessing(ABC):
         pass
 
     @abstractmethod
-    def delete(self, query: str):
+    def delete(self, query: str) -> None:
         pass
 
 
 class JsonProcessing(FileProcessing):
 
-    def __init__(self, path: str):
+    def __init__(self, path: str) -> None:
         """
         :param path: Путь к файлу
         """
@@ -44,7 +44,7 @@ class JsonProcessing(FileProcessing):
         with open(self.path, encoding='utf-8') as f:
             return json.load(f)
 
-    def write(self, data: list | Vacancy):
+    def write(self, data: list | Vacancy) -> None:
         """
         Открытие фала на запись
         :param data: Список с вакансиями
@@ -75,7 +75,7 @@ class JsonProcessing(FileProcessing):
 
         return get_query
 
-    def delete(self, query: str):
+    def delete(self, query: str) -> None:
         """
         Удаление вакансий по запросу
         :param query: Слово запроса
@@ -83,7 +83,7 @@ class JsonProcessing(FileProcessing):
         with open(self.path, encoding='utf-8') as f:
             data = json.load(f)
             items: int = 0
-            check:int = len(data)
+            check: int = len(data)
             while check != items:
                 check = items
                 for item in data:

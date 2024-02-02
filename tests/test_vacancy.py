@@ -1,13 +1,13 @@
 import pytest
 
-from config import TEST_JSON
 from vecancy_worcer.vecancy import Vacancy
 
 
 @pytest.fixture
 def response_hh():
     return {
-        'alternate_url': 'https://hh.ru/search/vacancy?area=113&enable_snippets=true&items_on_page=2&only_with_salary=true&search_field=name&text=python',
+        'alternate_url': 'https://hh.ru/search/vacancy?area=113&enable_snippets=true&items_on_page='
+                         '2&only_with_salary=true&search_field=name&text=python',
         'arguments': None,
         'clusters': None,
         'fixes': None,
@@ -133,26 +133,31 @@ def response_hh():
         'per_page': 2,
         'suggests': None}
 
+
 @pytest.fixture
 def vacancies_json():
     return [
-  {
-    "name": "Senior Python разработчик",
-    "salary_to": 370000,
-    "salary_from": 300000,
-    "alternate_url": "https://hh.ru/vacancy/92135217",
-    "responsibility": "Portal Bilet - e-commerce платформа, которая занимается продажей билетов и покрывает все сферы event-сегмента, от небольшого локального события до...",
-    "schedule": "Удаленная работа"
-  },
-  {
-    "name": "Системный программист / разработчик Python",
-    "salary_to": 350000,
-    "salary_from": 200000,
-    "alternate_url": "https://hh.ru/vacancy/92323149",
-    "responsibility": "Управлять задачами, командами, проектами, разработкой и внедрением усовершенствований. Отслеживать изменения, компоненты и версии. Настраивать собственные бизнес-процессы и автоматизировать деятельность. ",
-    "schedule": "Удаленная работа"
-  }
-]
+        {
+            "name": "Senior Python разработчик",
+            "salary_to": 370000,
+            "salary_from": 300000,
+            "alternate_url": "https://hh.ru/vacancy/92135217",
+            "responsibility": "Portal Bilet - e-commerce платформа, которая занимается продажей билетов и покрывает "
+                              "все сферы event-сегмента, от небольшого локального события до...",
+            "schedule": "Удаленная работа"
+        },
+        {
+            "name": "Системный программист / разработчик Python",
+            "salary_to": 350000,
+            "salary_from": 200000,
+            "alternate_url": "https://hh.ru/vacancy/92323149",
+            "responsibility": "Управлять задачами, командами, проектами, разработкой и внедрением усовершенствований. "
+                              "Отслеживать изменения, компоненты и версии. Настраивать собственные бизнес-процессы и "
+                              "автоматизировать деятельность. ",
+            "schedule": "Удаленная работа"
+        }
+    ]
+
 
 def test_initialization_hh(response_hh):
     vacancies = Vacancy.initialization_hh(response_hh)
