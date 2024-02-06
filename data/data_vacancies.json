@@ -1,0 +1,802 @@
+[
+    {
+        "name": "Senior Python Developer (IoT, platform development)",
+        "salary_to": 400000,
+        "salary_from": 300000,
+        "alternate_url": "https://hh.ru/vacancy/92369910",
+        "responsibility": "Разработка бэкенда облака на Django, к которому потенциально подключаются десятки тысяч контроллеров. Разработка агента контроллера (Python) для связи контроллера с...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Senior Python разработчик",
+        "salary_to": 370000,
+        "salary_from": 300000,
+        "alternate_url": "https://hh.ru/vacancy/92135217",
+        "responsibility": "Portal Bilet - e-commerce платформа, которая занимается продажей билетов и покрывает все сферы event-сегмента, от небольшого локального события до...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python разработчик",
+        "salary_to": 300000,
+        "salary_from": 250000,
+        "alternate_url": "https://hh.ru/vacancy/92467991",
+        "responsibility": "Разрабатывать и поддерживать микросервисы. Автоматизировать работу с Wildberries или Яндекс Маркетом (API).",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Системный программист / разработчик Python",
+        "salary_to": 350000,
+        "salary_from": 200000,
+        "alternate_url": "https://hh.ru/vacancy/92323149",
+        "responsibility": "Управлять задачами, командами, проектами, разработкой и внедрением усовершенствований. Отслеживать изменения, компоненты и версии. Настраивать собственные бизнес-процессы и автоматизировать деятельность. ",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Senior Backend Developer (Python)",
+        "salary_to": 530000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/92337065",
+        "responsibility": "Проектирование и разработка нового функционала. Разработка сервисов, связанных с хранилищами данных. Оптимизация и выявление узких мест в существующем коде и...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Chapter Backend Python Lead",
+        "salary_to": 0,
+        "salary_from": 500000,
+        "alternate_url": "https://hh.ru/vacancy/92266792",
+        "responsibility": "В данный момент мы ищем функционального руководителя команды Python Backend разработки, которая участвует в создании и развитии следующих продуктов компании...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Middle Backend Разработчик (Python)",
+        "salary_to": 250000,
+        "salary_from": 220000,
+        "alternate_url": "https://hh.ru/vacancy/90777119",
+        "responsibility": "Развитие и поддержка одного из основных решений компании, портала - аналога сервиса DownDetector. Сервис позволяет фиксировать и отображать проблемы с популярными...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python-разработчик",
+        "salary_to": 280000,
+        "salary_from": 180000,
+        "alternate_url": "https://hh.ru/vacancy/92298919",
+        "responsibility": "Принимать активное участие в разработке архитектуры высоконагруженных, масштабируемых и безопасных систем. Осуществлять рефакторинг, оптимизировать код и улучшать производительность существующих высоконагруженных...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary_to": 250000,
+        "salary_from": 200000,
+        "alternate_url": "https://hh.ru/vacancy/92336353",
+        "responsibility": "Разработка backend на Django. Разработка REST сервисов. Разработка async сервисов. Разработка клиентов для работы со сторонними API. Написание unit тестов. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Senior Python-разработчик",
+        "salary_to": 450000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/92094795",
+        "responsibility": "Разработка и развитие (улучшение производительности и надежности) внутренних продуктов компании — от небольших сервисов до высоконагруженных систем. Участие в проектировании архитектуры...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python-разработчик",
+        "salary_to": 450000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91987693",
+        "responsibility": "Делаем много проектов на asyncio, aiohttp, fastapi. Есть возможность работать с kubernetes, consul, vault. Реже используем django и flask. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "QA Specialist: Auto&Python (Москва или Сербия)",
+        "salary_to": 300000,
+        "salary_from": 150000,
+        "alternate_url": "https://hh.ru/vacancy/91652170",
+        "responsibility": "Автоматическое тестирование модулей продукта (ручное — только на период изучения продукта) и составление тестовой документации. Развитие и поддержка существующей тестовой базы...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python разработчик",
+        "salary_to": 230000,
+        "salary_from": 180000,
+        "alternate_url": "https://hh.ru/vacancy/92478871",
+        "responsibility": "Задачи по разработке программных решений в web и мобильных приложениях на основании технических заданий, полученных от функциональных консультантов и в...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Middle Python Backend Developer (Flask, FastAPI)",
+        "salary_to": 250000,
+        "salary_from": 150000,
+        "alternate_url": "https://hh.ru/vacancy/92336266",
+        "responsibility": "",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python разработчик",
+        "salary_to": 250000,
+        "salary_from": 150000,
+        "alternate_url": "https://hh.ru/vacancy/92400008",
+        "responsibility": "",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Backend developer (Разработчик Python \\ PostgreSQL)",
+        "salary_to": 220000,
+        "salary_from": 180000,
+        "alternate_url": "https://hh.ru/vacancy/91996121",
+        "responsibility": "Разработка серверной части (Python,FastAPI). Проектирование и разработка новой бизнес логики на уровне СУБД PostgreSQL \\ MS SQL. Оптимизация SQL-запросов. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Blockchain / Python разработчик",
+        "salary_to": 250000,
+        "salary_from": 150000,
+        "alternate_url": "https://hh.ru/vacancy/91961502",
+        "responsibility": "Разработка и поддержка блокчейн-системы на Python с использованием фреймворков Django. - Написание смарт-контрактов на Solidity для различных блокчейнов, включая...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Фуллстек-разработчик / Django/Python Full-Stack Engineer Bitcoin",
+        "salary_to": 250000,
+        "salary_from": 150000,
+        "alternate_url": "https://hh.ru/vacancy/92227595",
+        "responsibility": "New API integrations with 3rd parties. Deployment via docker, writing and updating docker compose files. Monitoring services for checking...",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Middle Python-разработчик",
+        "salary_to": 250000,
+        "salary_from": 140000,
+        "alternate_url": "https://hh.ru/vacancy/91632057",
+        "responsibility": "Разработка с использованием Python3. Поддержание проектов компании. Оптимизация существующих проектов компании. Разработка модулей для управления системами виртуализации. ",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python-developer",
+        "salary_to": 220000,
+        "salary_from": 150000,
+        "alternate_url": "https://hh.ru/vacancy/89957471",
+        "responsibility": "",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python (Django) Разработчик",
+        "salary_to": 250000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/91237789",
+        "responsibility": "Разработка и поддержка сервиса аналитики маркетплейсов на Django. Предлагать архитектурные решения, участвовать в проектировании архитектуры продукта. Мониторить производительность, оптимизировать где...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python разработчик",
+        "salary_to": 200000,
+        "salary_from": 150000,
+        "alternate_url": "https://hh.ru/vacancy/91607335",
+        "responsibility": "разработка Backend части приложений, сайтов и внутренних сервисов. - проектирование и разработка высоконагруженных сервисов. Работа в аккредитованной IT компании.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист Python",
+        "salary_to": 220000,
+        "salary_from": 125000,
+        "alternate_url": "https://hh.ru/vacancy/91627223",
+        "responsibility": "",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Программист Python",
+        "salary_to": 220000,
+        "salary_from": 115000,
+        "alternate_url": "https://hh.ru/vacancy/91627578",
+        "responsibility": "",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Python-developer",
+        "salary_to": 215000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/91261236",
+        "responsibility": "Разработка высоконагруженного финансового приложения. - Реализация сервиса доставки. - Развитие и сопровождение высоконагруженного приложения фиксации активности пользователей.",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Python разработчик (Django)",
+        "salary_to": 200000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/92358133",
+        "responsibility": "Меня зовут Катерина, я руковожу разработкой, ставлю задачи. Живу в Казани.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Программист-разработчик Python",
+        "salary_to": 300000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91359573",
+        "responsibility": "",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python Developer",
+        "salary_to": 0,
+        "salary_from": 300000,
+        "alternate_url": "https://hh.ru/vacancy/91546036",
+        "responsibility": "Разработка backend-сервисов. Участие в проектировании архитектуры разрабатываемых решений. Организация обмена данными между сервисами. Оптимизация производительности приложений. Оптимизация и улучшение...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Middle Python Backend",
+        "salary_to": 150000,
+        "salary_from": 130000,
+        "alternate_url": "https://hh.ru/vacancy/92450046",
+        "responsibility": "Кода для решения прикладных задач. И адаптация готового кода. И отладка программ. Научных статей и имплементация алгоритмов по ним. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python разработчик",
+        "salary_to": 280000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91721455",
+        "responsibility": "Разработка ботов на Python. Симуляция работы приложений через HTTP-запросы. Создание микросервисов для взаимодействия.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Backend разработчик Python",
+        "salary_to": 180000,
+        "salary_from": 80000,
+        "alternate_url": "https://hh.ru/vacancy/91664414",
+        "responsibility": "Разработка пользовательских интерфейсов. Участие в проектировании, выборе и доработке архитектурных и технологических решений. Настройка страниц и компонентов. Кастомизация внешнего вида...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python Developer",
+        "salary_to": 200000,
+        "salary_from": 60000,
+        "alternate_url": "https://hh.ru/vacancy/90915415",
+        "responsibility": "",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python R&D Engineer (junior+/middle)",
+        "salary_to": 180000,
+        "salary_from": 80000,
+        "alternate_url": "https://hh.ru/vacancy/92134557",
+        "responsibility": "Грамотный менеджмент, политика «открытых дверей» руководства, культура эффективности и взаимопомощи. Фокус на развитие и обучение сотрудников с бюджетом более 500...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python developer (junior+)",
+        "salary_to": 150000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/91580175",
+        "responsibility": "",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python developer (junior+)",
+        "salary_to": 150000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/91580174",
+        "responsibility": "",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист Linux/Python",
+        "salary_to": 0,
+        "salary_from": 250000,
+        "alternate_url": "https://hh.ru/vacancy/91485755",
+        "responsibility": "разработки под Asterisk. Формат работы:",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python-разработчик",
+        "salary_to": 150000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/91256157",
+        "responsibility": "Разработка эффективного и масштабируемого кода на Python. Создание компонентов бэкэнда для повышения отзывчивости и производительности системы. Тестирование и отладка программного...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Разработчик Python (FastAPI, MySQL, Clickhouse), удаленно",
+        "salary_to": 0,
+        "salary_from": 250000,
+        "alternate_url": "https://hh.ru/vacancy/92333181",
+        "responsibility": "Собрать команду под проект. - Руководить командой проекта. - Оценка бюджета проекта. - Участвовать в создании крутых продуктов. - Проектировать реализацию новых процессов.",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Python разработчик",
+        "salary_to": 0,
+        "salary_from": 250000,
+        "alternate_url": "https://hh.ru/vacancy/92483943",
+        "responsibility": "Основная задача: улучшить качество adult контента с помощью искусственного интеллекта. Backend: Python. Frontend: JS, React, Tailwind CSS. Разработка и поддержка...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary_to": 250000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91616618",
+        "responsibility": "Создание веб приложений с использованием python. Поддержка существующих проектов.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python разработчик в г. Сочи (Middle)",
+        "salary_to": 150000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/92311683",
+        "responsibility": "Разработка и поддержка backend. Проектирование и реализация REST API. Работа с различными системами баз данных (SQL, NoSQL). Внедрение и поддержка...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python Developer",
+        "salary_to": 180000,
+        "salary_from": 60000,
+        "alternate_url": "https://hh.ru/vacancy/89222499",
+        "responsibility": "Грамотный менеджмент, политика «открытых дверей» руководства. Фокус на развитие и обучение сотрудников с бюджетом более 500 000 рублей в год. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary_to": 150000,
+        "salary_from": 80000,
+        "alternate_url": "https://hh.ru/vacancy/90599236",
+        "responsibility": "Пишет простой и поддерживаемый код.",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Python/Go разработчик",
+        "salary_to": 140000,
+        "salary_from": 90000,
+        "alternate_url": "https://hh.ru/vacancy/91738518",
+        "responsibility": "Разработка диалоговых систем. Создание интеллектуального ассистента, который поддерживает разговор и отвечает на запросы. Создание речевых технологий для автоматизация голосового общения...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист Python",
+        "salary_to": 120000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/92048326",
+        "responsibility": "Программирование на языке Python. Работа с базами данных PostgreSQL. Разработка Web-приложений, Telegram-ботов.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Middle Python Developer",
+        "salary_to": 120000,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/92281844",
+        "responsibility": "Участвовать во всех этапах разработки в составе scrum-команды: собирать и анализировать требования, декомпозировать и оценивать задачи, писать код, релизить...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python-разработчик (уровень middle)",
+        "salary_to": 220000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91828281",
+        "responsibility": "Разработка и редактирование backend части (Django, FastAPI) для работы web-приложения. Документирование созданного API в Wiki проекта. Разработка интеграции с...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Программист Python",
+        "salary_to": 150000,
+        "salary_from": 50000,
+        "alternate_url": "https://hh.ru/vacancy/91218964",
+        "responsibility": "Разрабатываем несколько своих проектов. Боты, порталы, парсеры и многое другое.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Middle Backend Developer (Python)",
+        "salary_to": 0,
+        "salary_from": 200000,
+        "alternate_url": "https://hh.ru/vacancy/90329992",
+        "responsibility": "",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист Python (Middle)",
+        "salary_to": 0,
+        "salary_from": 200000,
+        "alternate_url": "https://hh.ru/vacancy/92187784",
+        "responsibility": "Разработка новой и поддержка старой функциональности продукта​: оптимизировать, дорабатывать, устранять баги, повышать производительность.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python Backend Developer (Middle, Remote)",
+        "salary_to": 195000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/90544605",
+        "responsibility": "Разработка подсистемы скоринга заемщиков: создание и доработка риск-факторов, анализ предоставленных документов, доработка интеграций с внешними источниками и т.д. ",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python разработчик",
+        "salary_to": 180000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/92111342",
+        "responsibility": "Разработка и развитие проектов на Python.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Программист Python junior",
+        "salary_to": 90000,
+        "salary_from": 85000,
+        "alternate_url": "https://hh.ru/vacancy/92010900",
+        "responsibility": "Разработка ПО для сети доставки контента CDNvideo и автоматизации конфигурирования услуг клиентами (задачи связаны с большими нагрузками (highload) и обработкой...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Pre-middle Python Developer",
+        "salary_to": 100000,
+        "salary_from": 75000,
+        "alternate_url": "https://hh.ru/vacancy/91793344",
+        "responsibility": "Мы внедряем в парках аттракционов систему Photo Box Pro (www.photo-box.online) – программно-аппаратный модуль, позволяющий вести автоматическую фотосъемку по движению, сохранению...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Pre-middle Python Developer",
+        "salary_to": 100000,
+        "salary_from": 75000,
+        "alternate_url": "https://hh.ru/vacancy/91793467",
+        "responsibility": "Мы внедряем в парках аттракционов систему Photo Box Pro (www.photo-box.online) – программно-аппаратный модуль, позволяющий вести автоматическую фотосъемку по движению, сохранению...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary_to": 170000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91126665",
+        "responsibility": "Писать код на python: разработка по задачам, рефакторинг/реструктуризация легаси, написание юнит-тестов. Реализовывать задачи согласно функциональным требованиям. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python разработчик (Django)",
+        "salary_to": 100000,
+        "salary_from": 60000,
+        "alternate_url": "https://hh.ru/vacancy/91636601",
+        "responsibility": "Разработка проектов (Вашим первым проектом будет разработка сайта турниров для игр CS: GO, Dota 2, PUBG и др.). ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Backend-разработчик Python",
+        "salary_to": 160000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91620172",
+        "responsibility": "Разработка API для мобильных и веб-приложений. Интеграция с внутренними и внешними сервисами. Писать тесты для обеспечения высокого качества проекта. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python developer (Удаленно)",
+        "salary_to": 150000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91618514",
+        "responsibility": "Интеграции с внешними и внутренними сервисами. - Проектирование архитектуры. - Взаимодействие с командой.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary_to": 75000,
+        "salary_from": 75000,
+        "alternate_url": "https://hh.ru/vacancy/91387348",
+        "responsibility": "Разработка и поддержка по внутренним проектам организации (автоматизация процессов). Работа по автоматизации через API-сервисы. Разработка функций сбора, обработки, хранения...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Backend developer (Python)",
+        "salary_to": 150000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91715687",
+        "responsibility": "Разрабатывать новые и поддерживать существующие приложения. Поддерживать и дорабатывать архитектуру на существующих проектах и предлагать новые решения. Реализовывать проекты с...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python (Django) Developer",
+        "salary_to": 0,
+        "salary_from": 150000,
+        "alternate_url": "https://hh.ru/vacancy/91800239",
+        "responsibility": "Мы - крупнейшая компания в сегменте сервиса и аренды оборудования для монолитного строительства за Уралом. На текущий момент число активных регулярных...",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary_to": 150000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/90789260",
+        "responsibility": "Над чем предстоит работать: Разработка интеллектуальных систем. Участие в разработке и проектирования ПО для приема, обработки и визуализации данных с...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист Python Junior (BigData)",
+        "salary_to": 100000,
+        "salary_from": 45000,
+        "alternate_url": "https://hh.ru/vacancy/91511409",
+        "responsibility": "Обеспечивать работоспособность и доступность бизнес-систем компании. Управлять конфигурациями и микросервисами. Находить не тривиальные решения. Быть \"белыми хакерами\" всегда решать...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python разработчик (Middle)",
+        "salary_to": 0,
+        "salary_from": 140000,
+        "alternate_url": "https://hh.ru/vacancy/92362909",
+        "responsibility": "Участвовать в оценке задач. Участвовать в проектировании нового функционала. Backend: python, rust. Frontend: ts, js. Работа с современным стеком технологий. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Junior Fullstack разработчик (php/python/js)",
+        "salary_to": 80000,
+        "salary_from": 60000,
+        "alternate_url": "https://hh.ru/vacancy/92066990",
+        "responsibility": "Поддержание и развитие внутренней MES/ERP системы на основе web. Участие в написание новых web сервисов.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Аналитик со знанием Python",
+        "salary_to": 0,
+        "salary_from": 130000,
+        "alternate_url": "https://hh.ru/vacancy/92278926",
+        "responsibility": "Создание обработчиков и документов с применением python. Выгрузка данных из SQL в сводные таблицы excel и google таблицы для конечных...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python 3.10+ Backend разработчик",
+        "salary_to": 0,
+        "salary_from": 130000,
+        "alternate_url": "https://hh.ru/vacancy/91214646",
+        "responsibility": "НАМИС - занимается разработкой информационных продуктов, программно-аппаратных комплексов и обеспечением информационной безопасности. Аккредитованная IT компания со всеми вытекающими льготами.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python developer",
+        "salary_to": 130000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/90345123",
+        "responsibility": "Разработка модулей, компонентов, скриптов и API на Python.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary_to": 75000,
+        "salary_from": 50000,
+        "alternate_url": "https://hh.ru/vacancy/90992863",
+        "responsibility": "",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python Backend Developer",
+        "salary_to": 0,
+        "salary_from": 120000,
+        "alternate_url": "https://hh.ru/vacancy/92292859",
+        "responsibility": "Разработка серверной части. Проектирование архитектуры кода, проведение грумминг сессий с командой. Написание свежего и чистого кода, никакого легаси (все пишется...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Аналитик (SQL, Python, Looker Studio, PowerBI)",
+        "salary_to": 0,
+        "salary_from": 120000,
+        "alternate_url": "https://hh.ru/vacancy/91992519",
+        "responsibility": "Изучение данных из различных предметных областей. Написание SQL запросов. Сбор данных с помощью Python. Проектирование и создание отчетов и дашбородов.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Программист Python",
+        "salary_to": 80000,
+        "salary_from": 40000,
+        "alternate_url": "https://hh.ru/vacancy/92089196",
+        "responsibility": "Разработка и поддержка веб-приложений на Python. - Участие в проектировании архитектуры приложений и баз данных. - Оптимизация производительности и масштабируемости веб...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python backend разработчик Middle+",
+        "salary_to": 0,
+        "salary_from": 120000,
+        "alternate_url": "https://hh.ru/vacancy/92307003",
+        "responsibility": "Поддерживать старый и разрабатывать новый функционал. - Участвовать в проработке задач. - Проводить код ревью. - Принимать участие в митингах. Предусмотрены следующие этапы...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист-разработчик Python Flask SQLAlchemy JS Junior Blacksheep",
+        "salary_to": 65000,
+        "salary_from": 50000,
+        "alternate_url": "https://hh.ru/vacancy/92293098",
+        "responsibility": "Разработка веб приложения, работа над одним проектом. Контроль микросервисов веб приложения. Находить не тривиальные решения.",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary_to": 80000,
+        "salary_from": 30000,
+        "alternate_url": "https://hh.ru/vacancy/80736556",
+        "responsibility": "Разработка бэкенд новых SaaS проектов на Python. Поддержка, устранение проблем в ранее разработанном ПО совместно с командой. Рефакторинг и оптимизация...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Стажер-разработчик Python",
+        "salary_to": 50000,
+        "salary_from": 50000,
+        "alternate_url": "https://hh.ru/vacancy/92363159",
+        "responsibility": "Внедрять новые инженерные решения. Поддерживать текущий проект. Разработка десктоп ПО по нашим лекалам.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Разработчик (Backend developer / Python)",
+        "salary_to": 0,
+        "salary_from": 100000,
+        "alternate_url": "https://hh.ru/vacancy/90812837",
+        "responsibility": "Python на бэкенде, взаимодействие через GraphQL и REST API. SPA на Vue.js + Typescript на фронте и Quasar как библиотека...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Python-разработчик (Инженер-программист)",
+        "salary_to": 0,
+        "salary_from": 90000,
+        "alternate_url": "https://hh.ru/vacancy/91683615",
+        "responsibility": "Интерес к архитектуре приложений и построению распределенных сервисных систем. Работа по гибким методологиям разработки ПО с использованием программных продуктов Atlassian...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист-разработчик Python",
+        "salary_to": 0,
+        "salary_from": 80000,
+        "alternate_url": "https://hh.ru/vacancy/92402064",
+        "responsibility": "Наша команда занимается разработкой платформы для поиска и анализа контрагентов, конкурентов, ЛПР. Сервис предполагает сбор широко объема информации из разных...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python разработчик (Django)",
+        "salary_to": 0,
+        "salary_from": 73500,
+        "alternate_url": "https://hh.ru/vacancy/91558940",
+        "responsibility": "Разработка логики веб-сервиса, основанного на python/django rest framework. Написание unit-тестов на написанный функционал. Разработка интеграционных решений. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Backend-разработчик (Python)",
+        "salary_to": 0,
+        "salary_from": 70000,
+        "alternate_url": "https://hh.ru/vacancy/92454497",
+        "responsibility": "Участие в выполнении проектов по созданию цифровой инфраструктуры для партнёров компании. Поддержка и развитие функционала сайта.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист Python, С, С++",
+        "salary_to": 0,
+        "salary_from": 70000,
+        "alternate_url": "https://hh.ru/vacancy/92406600",
+        "responsibility": "Написание программы логики работы станка. Написание программы оболочки (интерфейса). Написание программ сервисного обслуживания, удаленного сбора данных сервисных параметров станков. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Программист Python",
+        "salary_to": 70000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/91407895",
+        "responsibility": "Разработка и доработка api для сайтов и веб-приложений. Поддержка работоспособности серверной части наших проектов. Взаимодействие с пользователями для выявления...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Full Stack разработчик (Python)",
+        "salary_to": 0,
+        "salary_from": 70000,
+        "alternate_url": "https://hh.ru/vacancy/92002509",
+        "responsibility": "Full Stack разработка веб-приложений. Разработка серверной программной логики (backend, Django, Django REST Framework) и визуализации (frontend) составляющих web-приложений. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Разработчик на Python",
+        "salary_to": 0,
+        "salary_from": 70000,
+        "alternate_url": "https://hh.ru/vacancy/90310055",
+        "responsibility": "поддержка существующих бекэнд-сервисов и написание новых на языке Python. -покрытие кода юнит-тестами, рефакторинг, оптимизация кода и взаимодействия с...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Junior Python Backend Developer",
+        "salary_to": 60000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/92471522",
+        "responsibility": "Поддерживать и дополнять функционал CRM.",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Стажер-программист Python",
+        "salary_to": 0,
+        "salary_from": 60000,
+        "alternate_url": "https://hh.ru/vacancy/92058258",
+        "responsibility": "Исследования в области компьютерного зрения, нейросетей, взаимодействия различного оборудования между собой по различным цифровым протоколам, анализ и визуализация различных данных. ",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Junior Python разработчик",
+        "salary_to": 0,
+        "salary_from": 60000,
+        "alternate_url": "https://hh.ru/vacancy/91861865",
+        "responsibility": "Написание и поддержка интеграций (python2/3 + REST/SOAP + MySQL). * Разработка новых продуктов (python3 + Flask/Django...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Junior Программист/Разработчик Python",
+        "salary_to": 0,
+        "salary_from": 60000,
+        "alternate_url": "https://hh.ru/vacancy/91764768",
+        "responsibility": "Разработка, тестирование, отладка и поддержка кросс-платформенных (x86/ARM) приложений на Python.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Специалист по машинному обучению (python)",
+        "salary_to": 0,
+        "salary_from": 60000,
+        "alternate_url": "https://hh.ru/vacancy/91774863",
+        "responsibility": "Разработка и внедрения методов машинного обучения, включая нейросети в прикладные продукты. Интересные и нестандартные задачи широкого спектра: анализ текстов, изображений...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Junior Python-программист",
+        "salary_to": 0,
+        "salary_from": 45000,
+        "alternate_url": "https://hh.ru/vacancy/92151999",
+        "responsibility": "Разработка, поддержка и оптимизация программного кода. Поддержка и оптимизация парсеров. Работа с MS SQL. Создание отчетов.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Python Developer",
+        "salary_to": 0,
+        "salary_from": 45000,
+        "alternate_url": "https://hh.ru/vacancy/92151346",
+        "responsibility": "Участвовать в разработке продукта на всех этапах, применяя свои знания Python. Строить качественный код, принимая участие в Code Review под...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Стажер Back-end разработчика (php, python, c#)",
+        "salary_to": 30000,
+        "salary_from": 15000,
+        "alternate_url": "https://hh.ru/vacancy/89753481",
+        "responsibility": "Разработка на bitrix framework. Разработка API для мобильных приложений и веб-интерфейсов. Интеграция по API с внешними сервисами (банки, доставщики...",
+        "schedule": "Удаленная работа"
+    },
+    {
+        "name": "Стажер-разработчик Python",
+        "salary_to": 0,
+        "salary_from": 40000,
+        "alternate_url": "https://hh.ru/vacancy/89358110",
+        "responsibility": "Предоставление отчетов о проделанной работе. - Разработка ботов. - Обучение разработке.",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Младший программист Python",
+        "salary_to": 0,
+        "salary_from": 40000,
+        "alternate_url": "https://hh.ru/vacancy/91938116",
+        "responsibility": "Участие в обсуждении технических решений. Оценка, декомпозиция задач. Разработка, тестирование, отладка web-приложений на Python. Доработка существующих сервисов.",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Стажер-разработчик Python",
+        "salary_to": 0,
+        "salary_from": 40000,
+        "alternate_url": "https://hh.ru/vacancy/89358111",
+        "responsibility": "Предоставление отчетов о проделанной работе. - Разработка ботов. - Обучение разработке.",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Инженер-программист (Python)",
+        "salary_to": 0,
+        "salary_from": 40000,
+        "alternate_url": "https://hh.ru/vacancy/91679086",
+        "responsibility": "Разработка программ, компонентов программ и программных модулей на языке Python. Разработка алгоритмов управления и взаимодействия в программах. Разработка графических пользовательских...",
+        "schedule": "Полный день"
+    },
+    {
+        "name": "Стажер-программист Python (backend)",
+        "salary_to": 30000,
+        "salary_from": 0,
+        "alternate_url": "https://hh.ru/vacancy/92345293",
+        "responsibility": "Сбор датасета с помощью фреймворка Scrapy. - Разработка, тестирование и внедрение моделей машинного обучения. - Работа с данными, анализ с Scikit-Learn...",
+        "schedule": "Гибкий график"
+    },
+    {
+        "name": "Стажер-разработчик Python/Java/Kotlin (компьютерное зрение), удалённо",
+        "salary_to": 0,
+        "salary_from": 15000,
+        "alternate_url": "https://hh.ru/vacancy/89166853",
+        "responsibility": "Разработка функционала компьютерного зрения для взаимодействия с сайтами.",
+        "schedule": "Удаленная работа"
+    }
+]
